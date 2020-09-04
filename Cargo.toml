@@ -1,0 +1,13 @@
+[package]
+name = "bevy_platformer"
+version = "0.1.0"
+authors = ["refsa <refsa22@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = { git = "https://github.com/bevyengine/bevy", rev = "5288ec98593cab946d1f960da7b8d73607ff7414" }
+anyhow = "1.0"
+thiserror = "1.0"
+obj-rs = { version = "0.6", default-features = false }
